@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+html {
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --primary: #181818;
+  --secondary:rgba(63,63,70,0.4);
+  --border:rgba(63,63,70,0.4);
+  --main-color: orange;
+
+}
+.light {
+  --primary: #fff;
+}
+
+.divider {
+  border: 1px solid var(--border);
+  margin: 3rem 0;
+}
+
+body {
+  background-color: var(--primary);
+  color: #fff;
+}
+.container1 {
+  margin-inline: auto;
+  background-color: var(--secondary);
+  border: 2px solid var(--border);
+}
+.hero-nav {
+  background-color: #ffffff42 !important;
+  width: 36% !important;
+  border-radius: 20px;
+  text-align: center !important;
+}
+.dark-btn {
+  position: relative !important;
+  left:95% !important;
+  top: -60px !important;
+}
+.Eslam {
+  border: 2px solid orange;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+.Eslam:hover {
+  box-shadow: 0px 0px 4px 2px orange;
+  transition: 0.2s;
+}
+/* footer */
+.footer {
+  background-color: #1b1b1b;
+  height: 80px;
+}
+.footer .container-fluied {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer span {
+  text-align: center;
+  color: white;
+  padding-top: 30px;  
+}
+.btn-proj {
+  width: 150px;
+  margin-block: 2%;
+}
+.icons i {
+  font-size: 20px;
+}
+.icons i:hover {
+  color: var(--main-color); 
+  transition: 0.2s;
+}
+.icons a {
+  text-decoration: none !important;
+  color: white;
+}
