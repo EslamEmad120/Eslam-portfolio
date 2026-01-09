@@ -10,13 +10,17 @@ import Bookmark from '../../images/Bookmark.jpeg';
 import TechnoMark from '../../images/TechnoMark.png';  
 import Daar from '../../images/Daar.png';   
 import ticktory from '../../images/ticktory.png';   // 👈 صورة المشروع الجديد
+import social from '../../images/social.png';   // 👈 صورة المشروع الجديد
+import alaa from '../../images/alaa.png';   // 👈 صورة المشروع الجديد
 
 export default function Main() { 
   const [currentActive, setCurrentActive] = useState('all'); 
    
   const myProjects = [ 
     {projectTitle: 'fresh cart', category: 'react', imgPath: freshcart ,demo:'https://e-commerce-01-mu.vercel.app/'}, 
+    {projectTitle: 'alaa hamed platform', category: 'react', imgPath: alaa ,demo:'https://dawah-frontend.vercel.app/'}, // 👈 المشروع الجديد
     {projectTitle: 'Ticktory', category: 'react', imgPath: ticktory ,demo:'https://ticktory.vercel.app/'}, // 👈 المشروع الجديد
+    {projectTitle: 'social media', category: 'react', imgPath: social ,demo:'https://social-xi-three.vercel.app/'}, // 👈 المشروع الجديد
     {projectTitle: 'TechnoMark', category: 'react', imgPath: TechnoMark ,demo:'https://techno-mark.vercel.app/'}, 
     {projectTitle: 'Another Taste', category: 'react', imgPath: Taste ,demo:'https://another-taste.vercel.app/'}, 
     {projectTitle: 'to do list', category: 'js', imgPath: toDoList ,demo:'https://islamimad12.github.io/To-Do-List/'}, 
