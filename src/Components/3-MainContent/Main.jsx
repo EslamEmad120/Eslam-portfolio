@@ -19,8 +19,8 @@ export default function Main() {
   const myProjects = [ 
     {projectTitle: 'fresh cart', category: 'react', imgPath: freshcart ,demo:'https://e-commerce-01-mu.vercel.app/'}, 
     {projectTitle: 'alaa hamed platform', category: 'react', imgPath: alaa ,demo:'https://dawah-frontend.vercel.app/'}, // 👈 المشروع الجديد
-    {projectTitle: 'Ticktory', category: 'react', imgPath: ticktory ,demo:'https://ticktory.vercel.app/'}, // 👈 المشروع الجديد
-    {projectTitle: 'social media', category: 'react', imgPath: social ,demo:'https://social-xi-three.vercel.app/'}, // 👈 المشروع الجديد
+    {projectTitle: 'Ticktory', category: 'react', imgPath: ticktory ,demo:'https://ticketory.netlify.app/'}, // 👈 المشروع الجديد
+    // {projectTitle: 'social media', category: 'react', imgPath: social ,demo:'https://social-xi-three.vercel.app/'}, // 👈 المشروع الجديد
     {projectTitle: 'TechnoMark', category: 'react', imgPath: TechnoMark ,demo:'https://techno-mark.vercel.app/'}, 
     {projectTitle: 'Another Taste', category: 'react', imgPath: Taste ,demo:'https://another-taste.vercel.app/'}, 
     {projectTitle: 'to do list', category: 'js', imgPath: toDoList ,demo:'https://islamimad12.github.io/To-Do-List/'}, 

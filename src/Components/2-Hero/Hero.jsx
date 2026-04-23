@@ -42,7 +42,7 @@ export default function Hero() {
                <a   
   className="btn btn-outline-warning mx-1"   
   id="downloadBtn"   
-  href="/CV(7).pdf"   
+  href="/CV(8).pdf"   
   download="Eslam_Emad_CV.pdf"   
 >   
   SEE MY RESUME   
