@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 // import bootstrap from 'bootstrap/dist/css/bootstrap.css'
 import './App.css';
-import Home from './Components/Home/Home';
+// import Home from './Components/Home/Home';
 import Header from './Components/1-Header/Header';
 import Hero from './Components/2-Hero/Hero';
 import Main from './Components/3-MainContent/Main';
