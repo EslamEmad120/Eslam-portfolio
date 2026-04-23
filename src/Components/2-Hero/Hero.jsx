@@ -13,7 +13,7 @@ export default function Hero() {
           <div className="row d-flex justify-content-center">  
             <div className="col-md-6 justify-content-center align-items-center">  
               <img src={Eslam} alt="" width="100px" className="Eslam" />  
-              <h1></h1>  
+              {/* <h1></h1>   */}
               <h1>  
                 <Typewriter  
                   options={{  

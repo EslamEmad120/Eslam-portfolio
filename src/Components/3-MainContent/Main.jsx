@@ -10,7 +10,7 @@ import Bookmark from '../../images/Bookmark.jpeg';
 import TechnoMark from '../../images/TechnoMark.png';  
 import Daar from '../../images/Daar.png';   
 import ticktory from '../../images/ticktory.png';   // 👈 صورة المشروع الجديد
-import social from '../../images/social.png';   // 👈 صورة المشروع الجديد
+// import social from '../../images/social.png';   // 👈 صورة المشروع الجديد
 import alaa from '../../images/alaa.png';   // 👈 صورة المشروع الجديد
 
 export default function Main() { 
